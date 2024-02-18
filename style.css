@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+
+    --main-color:#04cbbe;
+}
+body {
+    background-color: #2396ab ; /* Light gray background */
+    font-family: Arial, sans-serif; /* Use a common font for better compatibility */
+}
+.container {
+    width: 600px;
+    margin: 100px auto;
+    padding: 40px;
+    background-color: #fff; /* White background for the container */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle elevation */
+}
+.inputs {
+    padding: 20px 0;
+    text-align: center;
+}
+.inputs input[type="text"] {
+    height: 40px;
+    width: 70%; /* Adjusted width for better responsiveness */
+    max-width: 400px; /* Maximum width for larger screens */
+    padding: 10px;
+    font-size: 1rem;
+    border: 2px solid #04cbbe; /* Light gray border */
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.inputs input[type="submit"] {
+    height: 40px;
+    width: 100px;
+    background: #4f1ad3;
+    font-weight: bold;
+    font-size: 1rem;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+.inputs input[type="submit"]:hover {
+    background-color: #03094d; /* Darker color on hover */
+}
+.inputs input[type="text"]:hover {
+    box-shadow: 0 0 1rem var(--main-color);
+}
+.display {
+    margin-top: 40px; /* Add some space between inputs and display */
+}
+.wrapper {
+    background-color: #a5d9ef; /* Lighter gray background for the display */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1); /* Light box shadow */
+}
+.wrapper h2 {
+    padding: 10px 0;
+    background: #0548b5;
+    text-align: center;
+    color: white;
+    border-radius: 5px 5px 0 0; /* Rounded top corners */
+}
+.wrapper p {
+    margin-top: 20px;
+    margin-bottom: 15px; 
+    text-align: center;/* Add some space between paragraphs */
+}
+.wrapper p:last-child {
+    margin-bottom: 0; /* Remove margin from the last paragraph */
+}
+.wrapper p span {
+    font-weight: bold; /* Make spans bold for emphasis */
+}
